@@ -1,4 +1,3 @@
-'''python
 N = int(input())
 num = 0
 

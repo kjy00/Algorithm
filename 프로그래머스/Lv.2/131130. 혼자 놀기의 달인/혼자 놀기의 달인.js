@@ -1,6 +1,5 @@
 function solution(cards) {
     let answer = 0;
-    const dp = {};
     const combi = [];
     for (let i = 0; i < cards.length - 1; i++) {
         for (let j = i; j < cards.length; j++)

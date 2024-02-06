@@ -1,0 +1,12 @@
+function solution(s) {
+    let stack = [];
+    for (let c of s) {
+        if (c === '(') stack.push('(');
+        if (c === ')') {
+            if (stack.pop() !== '(') 
+                return false;
+        }
+    }
+    if (stack.length) return false;
+    return true;
+}
